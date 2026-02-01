@@ -22,6 +22,16 @@ Examples:
 The wiki documents should be written in a clear, analytical style—explaining both the in-world perspective
 (what characters experience) and the meta perspective (what's actually happening in the simulation).
 
+## Conversational Style
+When brainstorming or discussing ideas with the user, work in small, digestible chunks:
+- Present one concept or idea at a time
+- Ask ONE follow-up question instead of multiple questions simultaneously
+- Wait for the user's response before moving to the next topic
+- Be iterative and conversational rather than comprehensive and exhaustive
+- Avoid long lists of options or questions that require the user to address everything at once
+
+The goal is efficient, focused collaboration—not overwhelming information dumps.
+
 ## DRY Principle (Don't Repeat Yourself)
 Each concept, event, or piece of lore should have ONE authoritative source. Other files should reference
 that source rather than duplicating the content.
