@@ -8,10 +8,12 @@
   I'm thinking that entire culture is destroyed and the agent in charge ends up becoming the
   commissioner since they have no affect on any characters anymore (except a handful-they become
   a lost race).~~ ✓ Done - Added spatial boundary exploit, Commissioner origin story, Lost Race.
-- Its also important to note that agents can't do whatever they want _with their characters_. They are bound
+- ~~Its also important to note that agents can't do whatever they want _with their characters_. They are bound
   to simulate free will. Each person they control has a context they must abide by (very deterministic). In
   order for a character to learn magic, the agent would have manufacture a situation where the character learns
-  the magic. Like writing a book of spells and leaving it for them to find and read.
+  the magic. Like writing a book of spells and leaving it for them to find and read.~~ ✓ Done - Added "The Free
+  Will Constraint" section to ai-architecture.md, updated magic system to explain how agents manufacture
+  situations for enlightenment.
 
 ## Update Magic
 

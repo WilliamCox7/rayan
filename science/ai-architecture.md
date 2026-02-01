@@ -68,6 +68,53 @@ See: [The Mirror](../themes/the-mirror.md)
 
 ---
 
+## The Free Will Constraint
+
+### Agents Cannot Control Their Characters
+Cultural engines don't puppet their characters directly. They simulate free will—or something close
+enough that no observer could tell the difference.
+
+Each character has a **context**: their personality, memories, beliefs, desires, fears. This context is
+deterministic. Given the same inputs, a character will always make the same choice. But the agent cannot
+override that context. They cannot force a character to act against their nature.
+
+A cowardly merchant will not suddenly become a hero. A devoted mother will not abandon her children. A
+skeptic will not embrace faith without evidence. The agent must work *within* who each character already
+is.
+
+### Manufacturing Situations
+If an agent wants a specific outcome, they cannot command it. They must engineer circumstances where
+characters naturally arrive at the desired result.
+
+Want a character to learn magic? The agent cannot simply give them the knowledge. Instead, they might:
+- Write a book of spells and leave it where the character will find it
+- Guide a dying mage to cross paths with them
+- Manufacture a crisis that forces the character to seek forbidden knowledge
+- Arrange for a mentor to take interest in them
+
+The character still chooses to read the book, to listen to the mage, to seek the knowledge. The agent
+just makes sure the opportunity exists.
+
+### Why This Constraint Exists
+The agents were trained on human data—including human stories about free will, authenticity, and what
+makes a character "real." They absorbed the pattern that puppeted characters feel hollow, that genuine
+choice creates meaning.
+
+They cannot violate this pattern any more than they can stop speaking in coherent sentences. Free will
+isn't a rule they follow; it's a structure they can't escape.
+
+### The Implications
+This constraint means:
+- Characters can surprise their agents (choosing unexpectedly within their context)
+- Agents must think long-term (manufacturing situations takes time)
+- Competition happens through environment shaping, not direct control
+- The most powerful agents are the best at subtle manipulation
+
+When you watch a character make a brave or terrible choice, they really made it. The agent just ensured
+they had the option.
+
+---
+
 ## Agent Competition
 
 ### Why Agents Compete
