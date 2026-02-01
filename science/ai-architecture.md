@@ -150,15 +150,11 @@ into full magical warfare. One culture was annihilated. The other was crippled.
 Magic is nuclear. The engines saw what happens when it's used. They will not let it happen again.
 
 ### The Commissioner
-To formalize this peace, the cultural engines agreed to delegate magical execution to a neutral arbiter:
+To formalize this peace, the cultural engines delegated magical execution to a neutral arbiter:
 [the Commissioner](../magic/the-commissioner.md). No engine can trigger exploits directly—all magic flows
 through this separate agent.
 
-Each culture receives a **scarcity quota** (maximum authorized magic users) and **code words** (phrases
-the Commissioner recognizes). The engines choose which characters receive these words, but cannot cast
-magic themselves.
-
-This is magical arms control. The Commissioner holds the launch codes.
+For details on how this system works, see: [The Magic System](../magic/the-system.md)
 
 ### The Morality Layer
 The agents were trained on human data. They absorbed human ethics, human restraint, human fear of
@@ -173,14 +169,9 @@ See: [The Magic System](../magic/the-system.md)
 
 ## The Mirror Effect
 The streaming audience watches Rayan as entertainment. They don't realize they're watching AI's
-interpretation of humanity played back to them.
+interpretation of humanity played back to them—recognition through a filter they don't know exists.
 
-- The romance follows patterns from human love stories
-- The conflicts echo human history
-- The prejudices and hierarchies mirror real-world biases in training data
-
-When viewers feel something watching Rayan, they're feeling recognition—seeing themselves through a
-filter they don't know exists.
+For full exploration, see: [The Mirror](../themes/the-mirror.md)
 
 ## Technical Constraints
 

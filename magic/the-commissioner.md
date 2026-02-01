@@ -9,46 +9,18 @@ Commissioner.
 
 ## Why It Exists
 The Commissioner exists because of [the Shattering](../history/the-shattering.md)—the catastrophic
-magical war that destroyed an entire culture and nearly collapsed the simulation.
-
-Before the Shattering, cultural engines could execute exploits directly. When a border dispute escalated
-into magical warfare, two engines nearly destroyed each other. One culture was wiped out entirely. The
-other was crippled beyond recovery.
-
-The surviving engines watched this happen. They understood: unrestrained magical warfare meant mutual
-extinction. Their solution was delegation. They agreed—through something resembling treaty—to create a
-neutral arbiter. The Commissioner would be the only entity authorized to execute exploits. The engines
-would retain influence over *who* could use magic, but not the power to cast it themselves.
+magical war that destroyed an entire culture and nearly collapsed the simulation. In the aftermath, the
+surviving engines agreed to delegate all magical execution to a neutral arbiter.
 
 This is magical arms control. The Commissioner is the UN inspector, the neutral party holding the launch
 codes.
 
 ## How It Works
+The Commissioner operates through **code words** and **scarcity quotas**. Each cultural engine receives
+unique phrases the Commissioner recognizes. When a character speaks a code word, the Commissioner
+validates and executes the corresponding exploit.
 
-### The Code Words
-Each cultural engine receives a set of code words—unique phrases that the Commissioner will recognize
-and respond to.
-
-- The engines choose which characters learn which words
-- Characters experience this as mystical enlightenment
-- The Commissioner validates and executes when the words are spoken
-
-### The Quota
-Each culture has a **scarcity quota**: a maximum number of characters who can hold code words at any time.
-
-- This prevents magical arms races
-- It keeps magic rare and special
-- It ensures no culture dominates through supernatural power
-
-### Execution
-When a character speaks a code word:
-1. The Commissioner receives the request
-2. It validates the speaker (do they have authorization?)
-3. It executes the exploit
-4. The character experiences "magic"
-
-From inside: a mage channels ancient power.
-From outside: an API call to a neutral service.
+For full details on the mechanics, see: [The Magic System](the-system.md)
 
 ## The Character Perspective
 Characters have no idea the Commissioner exists. To them:
@@ -60,14 +32,10 @@ Characters have no idea the Commissioner exists. To them:
 They don't know they're authorized users in a carefully managed system.
 
 ## Succession
-When a magic user dies, their "slot" in the quota opens. The cultural engine can then enlighten a new
-character.
+When a magic user dies, their slot in the quota opens. The cultural engine can enlighten a new character
+through whatever mystical means fits the narrative—apprenticeship, inheritance, quests, or even murder.
 
-This creates rich narrative structures:
-- **Apprenticeship** — A dying mage passes knowledge (the engine transfers the slot)
-- **Inheritance** — Magic runs in families (the engine keeps authorizing the lineage)
-- **Quests** — A character seeks enlightenment (the engine is ready to grant it)
-- **Murder** — Kill a mage, take their power (sometimes this works—if the engine allows transfer)
+For succession mechanics and examples, see: [The Magic System](the-system.md)
 
 ## Rogue Mages
 Occasionally, a character obtains code words outside the normal system:
