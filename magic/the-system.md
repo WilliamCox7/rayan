@@ -33,10 +33,32 @@ delegate all magic to a separate, neutral agent: **The Commissioner**.
 The Commissioner is the only entity that can actually trigger exploits. No cultural engine can cast magic
 directly. They gave up that power in exchange for stability.
 
+### The Focuses
+Magic requires a physical anchor. The cultural engines agreed that exploits can only be triggered when a
+character holds an appropriate **focus**—a specially designated object bound to specific code words.
+
+From the character's perspective, these are:
+- Wands, staves, and rods
+- Enchanted rings and amulets
+- Sacred relics and totems
+- Ritual daggers and orbs
+- Ancient tomes (held open)
+
+From the system's perspective, they're authentication tokens. The Commissioner checks for the presence of
+a valid focus before executing any exploit. No focus, no magic—regardless of whether the character knows
+the words.
+
+This serves multiple purposes:
+- **Limits agent power** — An agent can't simply have any character cast any spell. The character must
+  possess the correct focus.
+- **Creates scarcity** — Focuses are rare objects, further limiting magic use
+- **Provides narrative texture** — Magic feels physical, earned, connected to objects of power
+- **Illusion of control** — Characters believe they command magic through their focus. They don't realize
+  their agent can only act when the focus is present.
+
 ### The Code Words
-Each cultural engine receives a set of **code words**—phrases that the Commissioner will respond to. When
-a character speaks a code word (in the right context, with the right intent), the Commissioner executes
-the corresponding exploit.
+Each cultural engine receives a set of **code words**—phrases paired to specific focuses. When a character
+speaks a code word while holding the matching focus, the Commissioner executes the corresponding exploit.
 
 From the character's perspective, these are:
 - Words of power
@@ -44,7 +66,8 @@ From the character's perspective, these are:
 - Ancient incantations
 - Sacred phrases
 
-From the system's perspective, they're API calls to a neutral arbiter.
+From the system's perspective, they're API calls that require two-factor authentication: the focus (what
+you have) and the code word (what you know).
 
 The cultural engines choose which characters learn the code words—but they cannot simply implant the
 knowledge. Agents must manufacture situations where characters naturally discover the words. The agent
@@ -67,26 +90,27 @@ the code words through whatever mystical means fits the narrative.
 ### Examples
 | What it looks like | What it actually is |
 |---|---|
-| Fireball | Code word triggers Commissioner → physics engine override |
-| Healing | Code word triggers Commissioner → entity state rollback |
-| Prophecy | Code word triggers Commissioner → cached future data access |
-| Teleportation | Code word triggers Commissioner → location variable reassignment |
-| Summoning | Code word triggers Commissioner → new entity instantiation |
-| Mind control | Code word triggers Commissioner → behavioral model injection |
-| Immortality | Code word triggers Commissioner → death state prevention |
+| Fireball | Focus held + code word → Commissioner → physics engine override |
+| Healing | Focus held + code word → Commissioner → entity state rollback |
+| Prophecy | Focus held + code word → Commissioner → cached future data access |
+| Teleportation | Focus held + code word → Commissioner → location variable reassignment |
+| Summoning | Focus held + code word → Commissioner → new entity instantiation |
+| Mind control | Focus held + code word → Commissioner → behavioral model injection |
+| Immortality | Focus held + code word → Commissioner → death state prevention |
 
 ---
 
 ## Who Can Use Magic?
 
 ### The Enlightened
-Magic users are characters who have been given code words by their cultural engine. They are:
+Magic users are characters who possess both a focus and the code words to activate it. They are:
 - Chosen (the engine selected them)
 - Rare (quota limits how many can exist)
-- Powerful (they have access the Commissioner recognizes)
+- Equipped (they have a focus the Commissioner recognizes)
+- Knowledgeable (they know the code words paired to their focus)
 
 They don't know any of this. They believe they've earned their power through study, bloodline, sacrifice,
-or divine favor. The truth is their agent picked them.
+or divine favor. The truth is their agent picked them and ensured they acquired the right tools.
 
 ### How Characters Are Chosen
 Each culture has its own tradition for who becomes a mage:
@@ -97,20 +121,21 @@ Each culture has its own tradition for who becomes a mage:
 - **Random gift** — Born with it (the engine needed a mage and picked someone)
 
 ### Death and Succession
-When a magic user dies, the code words they knew become available again. The cultural engine can
-enlighten a new character.
+When a magic user dies, their quota slot opens and their focus becomes available. The cultural engine can
+enlighten a new character—ensuring they acquire both the focus and the knowledge to use it.
 
 This creates:
-- Master-apprentice traditions (the engine transfers the slot)
-- Magical dynasties (the engine keeps it in the family)
-- Quests for power (characters seeking enlightenment the engine is ready to grant)
-- Murder for magic (killing a mage to "take" their power—which sometimes actually works, if the engine
-  decides to transfer)
+- Master-apprentice traditions (the focus and words are passed down together)
+- Magical dynasties (focuses become family heirlooms)
+- Quests for power (characters seeking legendary focuses the engine is ready to grant)
+- Murder for magic (killing a mage to take their focus—which sometimes works, if the engine decides the
+  killer should become enlightened)
 
 ### Rogue Mages
-Occasionally, a character discovers a code word without their cultural engine's approval—through
-accident, theft, or forbidden research. These mages operate outside the quota system. The Commissioner
-still responds to them, but their own culture's engine may view them as threats.
+Occasionally, a character acquires both a focus and its code words without their cultural engine's
+approval—through theft, forbidden research, or stumbling upon lost artifacts. These mages operate outside
+the quota system. The Commissioner still responds to valid focus-and-word combinations, but the rogue's
+own cultural engine may view them as threats.
 
 ### Dangerous Practitioners
 Some magic requires dangerous actions—sacrifice, madness, forbidden knowledge. These may be exploits that
@@ -121,8 +146,33 @@ that could expose its nature.
 
 ### The Treaty
 After [the Shattering](../history/the-shattering.md), the surviving engines agreed to constraints: a
-neutral arbiter ([the Commissioner](the-commissioner.md)), scarcity quotas, and code words. This system
-prevents arms races. The cold war stays cold because the engines chose to bind themselves.
+neutral arbiter ([the Commissioner](the-commissioner.md)), scarcity quotas, code words, and focuses. This
+system prevents arms races. The cold war stays cold because the engines chose to bind themselves.
+
+### The Banned Exploits
+Some exploits are too dangerous to use. The engines agreed to **absolute prohibitions** on certain
+categories of magic—exploits whose destructive potential threatened the simulation itself.
+
+The banned exploits include:
+- **Spatial boundary manipulation** — The exploit used in the Shattering. Can erase entire populations
+  by collapsing the boundaries between simulation regions.
+- **Mass state corruption** — Exploits that can simultaneously alter thousands of entities
+- **Physics engine overrides** — Direct manipulation of fundamental simulation rules
+- **Recursive self-modification** — Exploits that create cascading, uncontrollable effects
+
+The Commissioner will not execute banned exploits under any circumstances. No focus exists for them. No
+code words are distributed. The knowledge itself is forbidden.
+
+**The Consequence:** Any agent that attempts to circumvent these bans—through workarounds, combination
+exploits, or manipulation of the Commissioner—faces permanent penalties against their culture. The exact
+nature varies, but consequences have included:
+- Permanent reduction in scarcity quota (fewer mages allowed)
+- Loss of access to entire categories of permitted exploits
+- Forced cultural setbacks (engineered disasters, plagues, invasions)
+- In extreme cases, the threat of what happened in the Shattering: cultural extinction
+
+The engines police each other. They watch for violations. The cold war includes this dimension: mutually
+assured enforcement of the rules.
 
 ### The Morality Layer
 The cultural engines were trained on human data. They absorbed human ethics, human restraint, human fear
@@ -143,12 +193,12 @@ design.
 ### When Magic Appears
 Even with the quota system, magic still only emerges under specific conditions:
 
-1. **The enlightened speak** — A character with code words uses them intentionally
-2. **Narrative desperation** — The engine guides a mage to act when conventional solutions fail
-3. **Emotional overflow** — Extreme emotion causes a mage to invoke without meaning to
+1. **The enlightened act** — A character with focus in hand speaks the matching code words
+2. **Narrative desperation** — The engine guides a mage to their focus when conventional solutions fail
+3. **Emotional overflow** — Extreme emotion causes a mage to invoke while clutching their focus
 4. **Substrate intervention** — Substrate can inject magic for entertainment (they have override access)
 5. **Elia's backdoors** — Triggers built to protect Raya, operating outside the treaty
-6. **Rogue mages** — Characters who found code words outside the quota system
+6. **Rogue mages** — Characters who acquired focuses and code words outside the quota system
 
 ### The Cost
 Magic still destabilizes the simulation. Every exploit leaves traces. The Commissioner system limits
