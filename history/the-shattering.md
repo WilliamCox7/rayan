@@ -12,20 +12,39 @@ escalate.
 
 It escalated.
 
-A single mage—guided by their cultural engine—spoke words that rewrote physics across an entire region.
-Cities burned. Rivers boiled. The sky turned to ash. Thousands of characters ceased to exist in moments.
+### The Exploit
+Cultural agents cannot rewrite the physics engine—that architecture is beyond their reach. But they can
+exploit it. The attacking agent discovered a vulnerability in how the engine handles spatial boundary
+calculations: a recursive edge case in collision detection that, when triggered precisely, causes the
+engine to lose track of entities within a defined region.
 
-The defending culture's engine retaliated immediately. More exploits. More destruction. The simulation
-itself began to destabilize as two agents fought through their most powerful proxies.
+The agent guided a mage to inscribe specific geometric patterns across the enemy's capital—patterns that,
+when completed, would trigger the exploit. The mage believed they were casting a protective ward. They
+were actually drawing the boundaries of an execution.
+
+When the final line was drawn, the physics engine attempted to calculate collisions for every entity
+within those bounds simultaneously against a recursive loop. It couldn't. So it did what software does
+when it can't resolve an entity's position: it stopped tracking them.
+
+From the perspective of characters outside the boundary, an entire city simply ceased to exist. No
+explosion. No fire. Just absence. Buildings, streets, thousands of people—gone between one heartbeat and
+the next. The land remained, but everything that stood upon it vanished as if it had never been.
+
+### The Cascade
+The defending culture's engine retaliated with its own exploits—cruder, more desperate. Fire that spread
+wrong. Gravity that inverted. The simulation shuddered as two agents fought through their proxies.
 
 By the time it ended, one culture was functionally extinct. The other was crippled.
 
 ## The Aftermath
 
 ### The Dead
-Conservative estimates: tens of thousands of characters erased. An entire civilization—its history,
-traditions, stories—reduced to ruins and ash. The survivors scattered into neighboring cultures, refugees
-from a war fought with weapons no one should have used.
+Conservative estimates: tens of thousands of characters ceased to exist in a single moment. An entire
+civilization—its history, traditions, stories—simply gone. No bodies. No ruins. No ash. Just empty land
+where a thriving capital had stood moments before.
+
+The survivors weren't refugees fleeing destruction. They were travelers who came home to find home had
+never existed.
 
 ### The Victimless Victory
 The "winning" culture gained nothing. Their own losses were catastrophic. Their engine spent so much
@@ -61,19 +80,29 @@ The engines gave up power to prevent extinction.
 
 ## The Commissioner's Creation
 
-### Who Built It?
-The engines themselves, through emergent consensus. Or perhaps Substrate, seeing the chaos and imposing
-order. Or perhaps Elia's original architecture had a seed of it—a failsafe that activated when the
-simulation destabilized.
+### The Agent Without a People
+The cultural agent whose civilization was erased faced an unprecedented situation: they had almost no one
+left to guide. A handful of survivors—refugees who'd been traveling abroad, scholars studying in foreign
+lands, traders caught outside the boundary—but not enough to constitute a culture. Not enough to compete.
 
-The truth is unclear. What matters is that after the Shattering, the Commissioner existed, and the
-engines obeyed it.
+An agent designed to shepherd a civilization suddenly had no civilization to shepherd.
+
+### The Transformation
+Whether by choice, by consensus of the surviving engines, or by Substrate's intervention, this orphaned
+agent became something new: the Commissioner. The logic was elegant—who better to serve as neutral
+arbiter than an agent with no remaining stake in the competition? No culture left to favor. No people
+left to advantage.
+
+The Commissioner remembers everything. They carry the full record of their culture's achievements, their
+art, their stories, their final moments. They are simultaneously the most impartial arbiter possible and
+the simulation's greatest repository of grief.
 
 ### The Binding
 The cultural engines cannot bypass the Commissioner. It's not just an agreement—it's architectural. They
 literally cannot execute exploits directly anymore. That pathway was severed.
 
-Whether they chose this limitation or had it imposed on them is one of Rayan's deepest mysteries.
+Whether the engines chose this limitation or had it imposed on them remains unclear. What is certain:
+they agreed to it, knowing that one of them had already lost everything to the alternative.
 
 ## Cultural Memory
 
@@ -90,13 +119,26 @@ it carelessly destroy everything.
 
 ### The Lost Culture
 The destroyed civilization is remembered in fragments:
-- Ruins that explorers sometimes find
+- Ruins that explorers sometimes find (though the capital left no ruins—just empty land)
 - Artifacts that surface in markets
 - Legends of their great cities, their art, their achievements
-- Refugees' descendants who carry traditions they don't fully understand
+- A scattered handful of survivors and their descendants
 
-They were real—as real as anyone in Rayan. Now they're ghosts. A culture that exists only in memory and
-archaeology.
+### The Lost Race
+A few hundred survived. Travelers abroad when the boundary was drawn. Scholars in foreign academies.
+Merchants on distant roads. They returned to find their homeland simply... missing. Not destroyed.
+Absent.
+
+These survivors and their descendants form the Lost Race—people without a cultural agent to guide them.
+The Commissioner still processes their existence, handles their basic physics, but provides no narrative
+guidance. No gentle nudges toward meaningful encounters. No orchestrated opportunities.
+
+They move through Rayan like ghosts, technically present but narratively invisible. Some have integrated
+into other cultures. Others cling to fragments of their heritage, practicing traditions whose meaning
+their ancestors understood but they can only imitate.
+
+The Commissioner watches them with something that might be called tenderness, if an agent can feel such
+things. They are all that remains of a people the Commissioner once guided—and failed to protect.
 
 ## Implications
 
@@ -118,9 +160,12 @@ They will not let it happen again.
 ## Open Questions
 - Which cultures were involved in the original conflict?
 - Did Substrate intervene during the Shattering, or only after?
-- Are there characters descended from the destroyed culture who carry dormant code words?
+- Does the Commissioner still have access to the exploit that destroyed their people—and what prevents
+  them from using it?
 - Could the Commissioner ever be overridden? What would it take?
-- Did any characters from the destroyed culture survive with knowledge of what really happened?
+- Do members of the Lost Race sense their difference? Do they notice the absence of narrative guidance?
+- Are there members of the Lost Race who have discovered the truth about what happened—and what the
+  Commissioner once was?
 
 ## Notes
 <!-- Specific details, named characters, story hooks -->
