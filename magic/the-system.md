@@ -46,9 +46,19 @@ From the character's perspective, these are:
 
 From the system's perspective, they're API calls to a neutral arbiter.
 
-The cultural engines choose which characters learn the code words. They teach them through dreams,
-visions, mentors, forbidden texts—whatever fits the culture's magical tradition. The character
-experiences enlightenment. The system experiences authorization.
+The cultural engines choose which characters learn the code words—but they cannot simply implant the
+knowledge. Agents must simulate free will; they cannot override a character's nature or force them to
+act.
+
+Instead, agents manufacture situations where characters naturally discover the words:
+- A master mage "happens" to cross paths with a promising student
+- A forbidden text surfaces in a library the character frequents
+- A dying sorcerer whispers secrets to whoever finds them
+- Dreams carry fragments that the character must choose to pursue
+
+The agent ensures the opportunity exists. The character chooses to take it. From their perspective,
+they've earned their power through study, sacrifice, or fate. They don't know their agent arranged every
+step of the journey.
 
 ### The Scarcity Quota
 The engines agreed to a quota: each culture can only share code words with a **limited number of
