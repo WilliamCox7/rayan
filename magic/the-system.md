@@ -47,18 +47,10 @@ From the character's perspective, these are:
 From the system's perspective, they're API calls to a neutral arbiter.
 
 The cultural engines choose which characters learn the code words—but they cannot simply implant the
-knowledge. Agents must simulate free will; they cannot override a character's nature or force them to
-act.
+knowledge. Agents must manufacture situations where characters naturally discover the words. The agent
+ensures the opportunity exists; the character chooses to take it.
 
-Instead, agents manufacture situations where characters naturally discover the words:
-- A master mage "happens" to cross paths with a promising student
-- A forbidden text surfaces in a library the character frequents
-- A dying sorcerer whispers secrets to whoever finds them
-- Dreams carry fragments that the character must choose to pursue
-
-The agent ensures the opportunity exists. The character chooses to take it. From their perspective,
-they've earned their power through study, sacrifice, or fate. They don't know their agent arranged every
-step of the journey.
+For full details on this constraint, see: [The Free Will Constraint](../science/ai-architecture.md#the-free-will-constraint)
 
 ### The Scarcity Quota
 The engines agreed to a quota: each culture can only share code words with a **limited number of
@@ -128,14 +120,9 @@ that could expose its nature.
 ## Why Magic Is Rare
 
 ### The Treaty
-The cultural engines agreed to constraints:
-
-1. **The Commissioner** — No engine executes magic directly. All exploits go through a neutral arbiter.
-2. **The Quota** — Each culture can only have a limited number of active magic users.
-3. **The Code Words** — Magic only works through authorized phrases that the Commissioner recognizes.
-
-This system prevents arms races. No culture can hoard magical power. The cold war stays cold because the
-engines chose to bind themselves.
+After [the Shattering](../history/the-shattering.md), the surviving engines agreed to constraints: a
+neutral arbiter ([the Commissioner](the-commissioner.md)), scarcity quotas, and code words. This system
+prevents arms races. The cold war stays cold because the engines chose to bind themselves.
 
 ### The Morality Layer
 The cultural engines were trained on human data. They absorbed human ethics, human restraint, human fear

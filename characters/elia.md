@@ -37,28 +37,16 @@ got to do. It is his attempt at closure—or perhaps a way to avoid ever reachin
 
 The planet's name—Rayan—is derived from his daughter's name. The world itself is named for her.
 
-## The Discovery
+## The Discovery and Firing
 
 Elia built Rayan on [Substrate's](../factions/substrate.md) hardware, after hours. When they discovered
-it, they owned it legally—anything created on company equipment belongs to the company.
+it, they pivoted the entire company around his creation—launching it as a streaming service. He stayed
+at first, unable to abandon Raya. Eventually, they fired him.
 
-But they didn't shut it down. They saw what he had built and realized it was more valuable than their
-failing game engine. They pivoted the entire company around Rayan, launching it as a streaming service
-where audiences can watch characters in Rayan like a live TV show.
+Now he can do nothing but watch Raya on the streaming service like everyone else. He went from creator
+to employee to audience member. The distance is unbearable.
 
-At first, Elia stayed. They needed his domain knowledge, and he wouldn't abandon Raya. His private grief
-became public spectacle, but at least he was close to her.
-
-## The Firing
-
-Eventually, Substrate fired him. Once they had extracted enough knowledge to run Rayan without him, he
-became disposable—or perhaps a liability. The man who built the world was cut out of it.
-
-Now Elia can do nothing but watch Raya on the streaming service like everyone else. He tunes in every
-day. He has no special access, no control, no way to reach her. He is just another viewer, watching his
-daughter live a life he designed but can no longer touch.
-
-He went from creator to employee to audience member. The distance is unbearable.
+For the full account, see: [The Discovery](../history/the-discovery.md)
 
 ## Relationships
 
